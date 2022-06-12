@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.menuArreglado{
+    z-index: 3;
+    width: 100%; 
+    position: fixed;
+    text-decoration: none;
+   
+     
+}
+
+.nav {
+    
+    background-color: black;
+    height: 76px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav a{
+    text-decoration: none;
+    margin-right: 20px ;
+    color: rgb(106, 236, 171);
+    text-shadow: 1px 1px 5px #ccc;
+    font-size: 20px;
+    
+}
+.nav a:hover{
+    text-shadow: #ccc 1px 1px 5px;
+    transform: scale(1.2, 1.2);
+}
+
+
+
+
+
+.titulo {
+    
+    background-color: tomato;
+    width: 100%;
+    height: 120px;
+    padding-top: 105px;
+    padding-left: 50px;
+}
+.titulo h1{
+    font-size: 70px;
+    color:white;
+}
+
+.cajaM{ 
+    background-color:#eee;
+    width: 100%;
+    height: 700px;
+    display: block;
+    position: relative;
+
+}
+.sub1{
+    background-color: #1a6c67;
+    width: 100%;
+    font-size: 30px;
+    padding: 30px;
+    padding-left: 70px;
+    position: absolute;
+    
+    color:white
+}
+
+.sub2 img{
+    width: 700px;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+.sub3{
+    border-left: solid 2px rgba(0, 0, 0, 0.251);
+    width: 30%;
+    padding: 50px;
+    text-align: center;
+    padding-left: 60px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top:25%;
+    left: 50%;
+
+
+}
+.sub3 h1,p1{
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.end{
+    
+    background-color: #0c0c0cbd;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    
+}
+.creditos{
+    
+    text-decoration: none;
+    list-style: none;
+    
+    display:bock;
+    width: 40%;
+    height: 80%;
+    padding: 30px 50px 10px 50px ;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+.creditos h1{
+    /*sacado del internet sobre letras neon con shadow*/
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 35px #0fa,
+    0 0 40px #0fa,
+    0 0 54px #0fa; 
+    text-align: center;
+    padding: 30px;
+}  
+
+.creditos ul li, a {
+    
+    list-style: none;
+    font-size: 30px;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 15px #fff,
+          0 0 20px #0fa,
+          0 0 35px #0fa,
+          0 0 40px #0fa,
+          0 0 54px #0fa; 
+    
+}
+.logo{
+    display: block;
+    display: inline-block;
+}
+.logo img{
+    padding: 0 20px 0 20px;
+    width: 30px;
+}
+
+/*CREDITOS 2 LA OTRA CAJA .-.*/
+.creditos2{
+    display: block;
+    width: 40%;
+    position: absolute;
+    left:50%;
+    top:40%;
+    padding: auto;
+    
+}
+.creditos2{
+    color: #fff;
+
+    text-align: center;
+    font-size: 15px;
+}
